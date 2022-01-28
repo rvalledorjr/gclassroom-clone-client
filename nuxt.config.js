@@ -45,6 +45,12 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    [
+      'nuxt-typed-router',
+      {
+        filePath: './__routes.ts',
+      },
+    ]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
