@@ -6822,7 +6822,7 @@ jest-worker@^27.3.1, jest-worker@^27.4.6:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^27.2.4, jest@^27.4.4:
+jest@^27.4.4:
   version "27.4.7"
   resolved "https://registry.yarnpkg.com/jest/-/jest-27.4.7.tgz#87f74b9026a1592f2da05b4d258e57505f28eca4"
   integrity sha512-8heYvsx7nV/m8m24Vk26Y87g73Ba6ueUd0MWed/NXMhSZIm62U/llVbS0PJe1SHunbyXjJ/BqG1z9bFjGUIvTg==
@@ -7126,6 +7126,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-es@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -7176,7 +7181,7 @@ lodash@^4.15.0, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-log-symbols@^5.0.0:
+log-symbols@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-5.1.0.tgz#a20e3b9a5f53fac6aeb8e2bb22c07cf2c8f16d93"
   integrity sha512-l0x2DvrW294C9uDCoQe1VSU4gf529FkSZ6leBl4TiqZH/e+0R7hSfHQBNut2mNygDgHwvYHfFLn6Oxb3VWj2rA==
@@ -7800,16 +7805,18 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
-nuxt-typed-router@^0.2.26:
-  version "0.2.26"
-  resolved "https://registry.yarnpkg.com/nuxt-typed-router/-/nuxt-typed-router-0.2.26.tgz#6c38336165b2e4865c7bb35f58e9e5ede4e6849d"
-  integrity sha512-0a0bsViAv8nIuduhYPCTYaiFy/EBjvSIQ1dqRu2gmrJEFb4IGNAboHLtWJtut+kmiBxfzil+9jp3DiWsMvNpFg==
+nuxt-typed-router@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/nuxt-typed-router/-/nuxt-typed-router-1.1.0.tgz#169c75d3edced967babcfa0fb8f6e2cf085c8d9b"
+  integrity sha512-WdIRv6UhGMs0yUKKDH9xMaATasO3zPBlKC1SDU6clLDXcmFGGE54Daa6AkyZ0UF7OGHYo2Apb5M+6RKoj/AZAA==
   dependencies:
+    "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
     chalk "^4.1.2"
-    jest "^27.2.4"
-    lodash "^4.17.21"
-    log-symbols "^5.0.0"
-    prettier "^2.4.1"
+    lodash-es "^4.17.21"
+    log-symbols "^5.1.0"
+    mkdirp "^1.0.4"
+    pathe "^0.2.0"
+    prettier "^2.5.1"
 
 nuxt-typed-vuex@^0.2.0:
   version "0.2.0"
@@ -8994,7 +9001,7 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-"prettier@^1.18.2 || ^2.0.0", prettier@^2.4.1, prettier@^2.5.1:
+"prettier@^1.18.2 || ^2.0.0", prettier@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
